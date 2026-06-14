@@ -9,17 +9,13 @@ class Test {
         // a. Instance of Veena
         Veena v = new Veena();
         v.play();
-
         // b. Instance of Saxophone
         saxophone s = new saxophone();
         s.play();
-
         // c. Using Playable reference
         playable p;
-
         p = new Veena();
         p.play();
-
         p = new saxophone();
         p.play();
     }
